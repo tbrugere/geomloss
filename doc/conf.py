@@ -24,6 +24,7 @@
 import sys, os
 import sphinx_gallery
 import time
+sys.path.append("..")
 
 from recommonmark.transform import AutoStructify
 
@@ -51,7 +52,6 @@ extensions = [
     "sphinx.ext.intersphinx",
     "matplotlib.sphinxext.plot_directive",
     "sphinx.ext.viewcode",
-    "sphinxcontrib.httpdomain",
     "sphinx_gallery.gen_gallery",
     "sphinx.ext.napoleon",
 ]
